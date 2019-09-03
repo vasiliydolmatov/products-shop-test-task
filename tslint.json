@@ -1,0 +1,36 @@
+{
+  "extends": [
+    "tslint:recommended",
+    "tslint-react",
+    "tslint-config-airbnb"
+  ],
+  "plugins": [
+    "ms-vscode.vscode-typescript-tslint-plugin"
+  ],
+  "rules": {
+    "quotemark": [
+      true,
+      "double",
+      "jsx-double"
+    ],
+    "max-line-length": [
+      true,
+      {
+        "limit": 120,
+        "ignore-pattern": "^import |^export {(.*?)}"
+      }
+    ],
+    "no-console": [
+      true,
+      "log"
+    ],
+    "import-name": false,
+    "variable-name": false,
+    "object-literal-sort-keys": false,
+    "forin": false,
+    "jsx-no-multiline-js": false,
+    "jsx-no-lambda": false,
+    "member-access": false,
+    "ordered-imports": false
+  }
+}
